@@ -1,0 +1,7 @@
+secret_example.yaml
+.vscode
+.idea
+__pycache__
+__pycache__/
+__pycache__/*
+*.py[cod]

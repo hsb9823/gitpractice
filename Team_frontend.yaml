@@ -1,0 +1,8 @@
+Frontend:
+  manager: Jin_ho
+  ∎main:
+    -index.html 
+    -apply.html
+    -thanks.html
+    -end_page.html
+    -modify/Team_frontend.yaml/;

@@ -1,0 +1,87 @@
+Frontend:
+  manager: Jin_ho
+  ∎main:
+    -app.js 
+    -design.js
+    -test.js
+    -test2.js
+    -index.html
+    -chat.html
+    -router.js
+
+Backend:
+  manager: Eno7
+  ∎app.py:
+  ∎router.py:
+    -class/manager_server
+      -for_example
+  ∎test.py:
+  ∎views.py:
+  ∎models.py:
+
+Database:
+  manger: Phoenix Park
+  ∎api.py:
+    -class/user_interface_load
+      -load_user
+      -server_request
+      -output_api_list
+
+Docker:
+  manager: Eno7
+  ∎install_list:
+    Frontend:
+      -html/css
+      -react
+    Backend:
+      -flask
+    Database:
+      -mysql
+      -aws
+
+Github:
+  manager: Eno7
+  ∎using_user:
+    Fronted:
+      -Jin_ho
+    Backend:
+      -Eno7
+      -Phoenix Park
+    Database:
+      -Phoenix Park
+
+app
+├── README.md
+├── package.json
+├── node_modules
+├── public
+│   ├── favicon.ico
+│   └── index.html
+├── src
+│   ├── App.test.js
+│   ├── actions
+│   │   └── index.js
+│   ├── components
+│   │   ├── App.js
+│   │   ├── Home.js
+│   │   └── Moim.js
+│   ├── containers
+│   │   └── MoimList.js
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── reducers
+│   │   ├── index.js
+│   │   └── reducer_lists.js
+│   ├── registerServiceWorker.js
+│   ├── templates
+│   │   └── main
+│   │       └── index.html
+│   ├── static
+│   │   └── styles
+│   │       └── App.less
+│   └── store
+│       ├── configureStore.dev.js
+│       ├── configureStore.js
+│       └── configureStore.prod.js
+└── yarn.lock

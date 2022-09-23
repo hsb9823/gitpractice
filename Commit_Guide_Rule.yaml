@@ -1,0 +1,19 @@
+For_example:
+  when you create or modify code
+  
+  (your group)_(create or modify file name)_create def or issue commit anything_(time)
+
+  time  : today first commit
+  create : app/cal
+  "backend_add.py_def(add, sub, mul, div)_1"
+
+  time  : today seconds commit
+  issue solve : handler/optimizer
+  "backend_handler.py_def(optimizer)_2"
+
+  time: today third commit
+  create: router/database_load
+  issue solve: app/cal
+  "backend_router.py, app.py_def(database_load), def(add, sub, mul, div)_3"
+
+Branch name whatever you want but do not forgot remove branch dir after finishing work

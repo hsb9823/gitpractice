@@ -1,0 +1,40 @@
+if you create or modify file:
+  first :
+    git add .
+  seconds :
+    git commit -m "user_message"
+  or:
+    git commit -am "user_message"
+  third:
+    git push -u origin (must use branch)
+
+if you wanna make the branch:
+  first: you should bring remote branch because branch of the same name should not exist.
+    git fetch
+  seconds: check branch list because branch of the same name should not exist.
+    git branch (branch_name)
+    git switch (branch_name)
+  or: both create and switch branch
+    git branch -c (branch_name)
+  third: when you permit pull request
+    git branch -d (branch_name)
+
+if you want to request at the pull:
+  first:
+   go -> https://github.com/Eno789/WebProject/pulls
+  seconds :
+    New pull request
+  third:
+    set the branch
+  finally:
+    assign people and choose labels
+
+if you discover to bug or want someone to create a function:
+  first:
+    go -> https://github.com/Eno789/WebProject/issues
+  seconds:
+    New issue
+  third:
+    assign people and choose labels
+  finally:
+    Submit new issue before write bug or function or anything
